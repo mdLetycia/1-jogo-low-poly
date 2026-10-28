@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://e24t4pls7ivq"]
+
+[ext_resource type="Script" uid="uid://buno47moxyt7b" path="res://scripts/aviso.gd" id="1_jf5yu"]
+
+[node name="Aviso" type="Control" unique_id=1981978092]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jf5yu")
+
+[node name="Fundo" type="ColorRect" parent="." unique_id=1642273584]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Texto" type="Label" parent="." unique_id=144147281]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -239.5
+offset_top = -117.5
+offset_right = 239.5
+offset_bottom = 117.5
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(200, 200)
+theme_override_font_sizes/font_size = 22
+text = "                                  Aviso!
+Um pequeno percentual de pessoas pode sofrer de convulsões ou desmaios ao ver luzes piscantes ou padrões de luz intensos. Se você sentir tontura, nausea ou desconforto, pare de jogar imediatamente e procure um médico."
+autowrap_mode = 3
