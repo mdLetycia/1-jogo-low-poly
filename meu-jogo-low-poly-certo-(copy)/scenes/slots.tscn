@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cj0gs4tuwy003"]
+
+[ext_resource type="Script" uid="uid://3hd1lkk7kjy4" path="res://scripts/slots.gd" id="1_bvatn"]
+
+[node name="Slots" type="Control" unique_id=1771101992]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bvatn")

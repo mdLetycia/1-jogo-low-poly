@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://day0i3md0jf80"]
+
+[ext_resource type="Script" uid="uid://cyxdj3tht1d6y" path="res://scripts/deusa.gd" id="1_jqu17"]
+
+[node name="Deusa" type="Node3D" unique_id=466553479]
+script = ExtResource("1_jqu17")

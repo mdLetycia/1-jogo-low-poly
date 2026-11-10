@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://komcg2hv37mx"]
+
+[ext_resource type="Script" uid="uid://dv6prkagvqpds" path="res://scripts/carregando.gd" id="1_q2vqe"]
+
+[node name="Carregando" type="Control" unique_id=1178018344]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q2vqe")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://lfmxdm5vc14h"]
+
+[ext_resource type="Script" uid="uid://dx0guhtefjeuv" path="res://scripts/cutscene_2.gd" id="1_eitc1"]
+
+[node name="Cutscene2" type="Node3D" unique_id=372748087]
+script = ExtResource("1_eitc1")
